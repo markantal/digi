@@ -1,68 +1,76 @@
 header {
-    background: linear-gradient(rgb(77,77,77),rgb(33,37,41));
+    background: linear-gradient(rgb(77, 77, 77), rgb(33, 37, 41));
     color: white;
     font-weight: 400;
     font-size: 16px;
     padding: 3px;
     border-top-left-radius: 10px;
-    border-top-right-radius:10px;
+    border-top-right-radius: 10px;
     height: 4.5rem;
 }
+
 body {
     font-family: Myriad Pro;
 }
+
 #foot {
-    background: rgb(33,37,41);
+    background: rgb(33, 37, 41);
     color: white;
-    border-top:solid 2px rgb(19,19,19);
+    border-top: solid 2px rgb(19, 19, 19);
     padding: 5px;
     border-bottom-left-radius: 10px;
-    border-bottom-right-radius:10px;
-    -webkit-box-shadow: 0px 2px 7px 0px rgba(163,163,163,1);
-    -moz-box-shadow: 0px 2px 7px 0px rgba(163,163,163,1);
-    box-shadow: 0px 2px 7px 0px rgba(163,163,163,1);
+    border-bottom-right-radius: 10px;
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(163, 163, 163, 1);
+    -moz-box-shadow: 0px 2px 7px 0px rgba(163, 163, 163, 1);
+    box-shadow: 0px 2px 7px 0px rgba(163, 163, 163, 1);
 }
+
 .custom-select {
-    background: rgb(25,25,25);
-    color: rgb(255,255,255);
-    width: 200px!important;
-    border: 1px solid rgb(54,54,54);
+    background: rgb(25, 25, 25);
+    color: rgb(255, 255, 255);
+    width: 200px !important;
+    border: 1px solid rgb(54, 54, 54);
     text-align: right;
     margin-left: 80px;
-    -webkit appearance:button!important;
+    -webkit appearance: button !important;
     -moz-appearance: button;
     appearance: button;
 }
+
 #tblEmail {
     display: table;
 }
+
 #tblPhone {
     display: none;
 }
 
-
 td {
     padding: 5px;
 }
+
 i {
-    color:white;
+    color: white;
 }
+
 .reddot {
-    color:rgb(255,0,0);
+    color: rgb(255, 0, 0);
     display: block;
     zoom: -1.2;
     border-radius: 50%;
     padding: 0px 15px 0px 15px
 }
+
 .yellowdot {
-    color:rgb(255,252,0);
+    color: rgb(255, 252, 0);
     display: block;
     zoom: -1.2;
     border-radius: 50%;
     padding: 0px 15px 0px 15px
 }
+
 .greendot {
-    color:rgb(0,255,30);
+    color: rgb(0, 255, 30);
     display: block;
     zoom: -1.2;
     border-radius: 50%;
@@ -71,18 +79,22 @@ i {
 
 .colour {
     font-family: Myriad Pro;
-    color: rgb(211,211,211)!important
+    color: rgb(211, 211, 211) !important
 }
+
 .tab {
     margin-left: 1.5rem
-    }
-table {
-    margin-bottom: 0!important;
 }
+
+table {
+    margin-bottom: 0 !important;
+}
+
 .detail {
-    border-left:solid 2px rgb(24,24,24);
+    border-left: solid 2px rgb(24, 24, 24);
     width: 50%;
 }
+
 h5 {
     margin-left: 20px;
     margin-top: 20px;
@@ -92,41 +104,47 @@ h5 {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 #save {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 #backbtn {
     margin-left: 10px;
     margin-right: 10px;
-
 }
+
 #editbtn {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 #delbtn {
     margin-left: 10px;
     margin-right: 10px;
 }
 
-input, .form-control {
+input,
+.form-control {
     background: #999999;
     color: #fff;
     border: none;
     padding: 3px 0px 3px 5px;
     border-radius: 5px;
 }
+
 label {
     padding-left: 10px;
 }
+
 button {
     margin-top: 5px;
-    margin-bottom: 5px; 
-}
-#EmailOrPhone {
-    color: #fff;
-    margin-right:10px;
-    margin-top:5px;
+    margin-bottom: 5px;
 }
 
+#EmailOrPhone {
+    color: #fff;
+    margin-right: 10px;
+    margin-top: 5px;
+}
